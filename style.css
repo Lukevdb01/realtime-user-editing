@@ -1,0 +1,97 @@
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  #status {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #555;
+  }
+
+  .input-group {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  #messageInput {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  #messageInput:focus {
+    border-color: #0078d7;
+  }
+
+  #sendBtn {
+    padding: 0 1.5rem;
+    background-color: #0078d7;
+    border: 1px solid #0078d7;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #sendBtn:hover {
+    background-color: #005ea2;
+  }
+
+  #sendBtn:disabled {
+    background-color: #a0c4ff;
+    border-color: #a0c4ff;
+    cursor: not-allowed;
+  }
+
+  #log {
+    max-width: 600px;
+    width: 100%;
+    height: 350px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: monospace;
+    font-size: 0.95rem;
+    color: #444;
+  }
+
+  #log p {
+    margin: 0.2rem 0;
+    word-wrap: break-word;
+  }
+
+  #log p.sent {
+    color: #0078d7;
+  }
+
+  #log p.received {
+    color: #2a9d8f;
+  }
+
+  #log p.system {
+    color: #999;
+    font-style: italic;
+  }

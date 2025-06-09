@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<title>WebSocket Chat Client</title>
+</head>
+<body>
+
+<h1>WebSocket Chat Client</h1>
+<div id="status">Connecting...</div>
+
+<div class="input-group">
+  <input type="text" id="messageInput" placeholder="Type a message" autocomplete="off" disabled />
+  <button id="sendBtn" disabled>Send</button>
+</div>
+
+<div id="log" aria-live="polite" aria-atomic="true"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+# Build resultaten
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio specifieke bestanden
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliSense bestanden
+ipch/
+*.pch
+*.pdb
+
+# Logbestanden
+*.log
+
+# Cache en temp
+*.cache
+*.tlog/
+*.lastbuildstate
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Resharper en andere tools
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio Code instellingen
+.vscode/
+
+# MacOS bestanden
+.DS_Store
+
+# Windows bestanden
+Thumbs.db
+desktop.ini
