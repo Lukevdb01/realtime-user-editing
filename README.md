@@ -7,6 +7,6 @@ This repository contains a project that implements a chat app with an c++ websoc
 - With a frontend clients can chat with each other
 
 ## Tech Stack
-- **C++**: Used for the websocket backend
+- **C++** Used for the websocket backend
 - HTML & JS for the client app
 #### © copyright 2025 | Luke van den Broek
